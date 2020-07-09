@@ -9,7 +9,7 @@ Signing & Capabilites 에서 Sign in with Apple 을 추가해주세요.
 
 ## Installation
 
-import AuthenticationServices 만 해주고
+import AuthenticationServices 를 해주고 ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding 이 두가지 class를 상속시켜주세요.
 다음과 같이 코드를 작성해주시면 됩니다.
 ```ruby
 fileprivate func setUpProviderLoginView() {
